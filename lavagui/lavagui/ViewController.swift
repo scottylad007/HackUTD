@@ -19,7 +19,7 @@ class ViewController: NSViewController {
         
         let file = "file.txt" //this is the file. we will write to and read from it
         
-        let text = "some text" //just a text
+        //let text = "some text" //just a text
         
         if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
             
@@ -43,12 +43,6 @@ class ViewController: NSViewController {
             }
             
         }
-        
-        
-        
-        
-        
-        
         // Do any additional setup after loading the view.
     }
     override func viewDidAppear() {
